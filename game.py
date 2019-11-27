@@ -12,6 +12,9 @@ def main():
             ans = input("Do you want to play more?? (YES or No): ")
             if ans == "YES" or ans == "yes":
                 flag = False
+                c=0
+                rndnumber = random.randint(1,100)
+
             else:
                 flag = True
         elif guess > rndnumber:
